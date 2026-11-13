@@ -115,7 +115,7 @@ Describe the analytical methods used to investigate the dataset.
 
 ## 💡 Key Findings
 
-There are repeating shapes in the data. Logical hypothesis are supported by the numbers. 
+There are repeating shapes in the data. Logical hypothesis are supported by the numbers. Which is to say the more kids you have the more expensive it is. 
 
 | Finding | Description | Significance |
 |---|---|---|
@@ -149,13 +149,14 @@ The visualizations show that the more children in the household the greater the 
 
 **Conclusions:**
 - The number of working adults and the number of children are directly correlated. 
-- Geographical location, year, and population density are also correlated. 
-- Cost of living is increasing and the rate of change is speeding up. 
+- Geographical location year are also correlated with the cost of living. 
+- Cost of living is increasing and the rate of change is speeding up over time. 
 
 **Recommendations:**
 - [Recommendation 1]
 - [Recommendation 2]
-- If I was to run this again I would try to get data from more years and really limit the number of columns. I had been struggling with my initial data gathering because i ended up finding a dataset that ended up being 2gigabytes in size. there was alot of interesting possible information and correlations to be found but there was simply too much data, and a number of the entries like "occupation" were numeric codes instead of actual words which limited their usefulness due to lack of interpretability. I also am not happy with the originator's source for the data. I used the MIT cost of living calculator for my "current day" comparison data and the author only lists their source as Wikipedia. 
+- If I was to run this again I would try to get data from more years and really limit the number of columns. I had been struggling with my initial data gathering because i ended up finding a dataset that ended up being 2gigabytes in size. there was alot of interesting possible information and correlations to be found but there was simply too much data, and a number of the entries like "occupation" were numeric codes instead of actual words which limited their usefulness due to lack of interpretability. I also am not happy with the originator's source for the data. I used the MIT cost of living calculator for my "current day" comparison data and the author only lists their source as Wikipedia.
+- I think there is a likelihood of preconcieved biases between me and the data. I do feel that the facts are such that the conclusions are not in question but it would be good to work with arms length datasets in the future.
 
 ## 📁 Project Structure
 
@@ -387,13 +388,7 @@ Data visualization
 
 Seaborn
 
-Statistical visualization
 
-SQL
-
-Database queries
-
-Excel
 
 Data exploration and validation
 
