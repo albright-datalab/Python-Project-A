@@ -52,7 +52,7 @@ It is no secret that the economic situation in our country has been getting more
 
 **Data Source:** (https://www.kaggle.com/datasets/brandonconrady/living-wage-top-100-cities)
 
-**Dataset Description:** Describe where the data originated and what it represents.
+**Dataset Description:** Living wage findings for the 100 top cities. 
 
 **Data Characteristics:**
 
@@ -85,13 +85,14 @@ It is no secret that the economic situation in our country has been getting more
 
 The steps taken to prepare the data for analysis are as follows:
 
-- Identified and handled missing values.
-- Removed duplicate records.
-- Corrected inconsistent data types.
+- searched for and found no missing values.
+- Searched for and found no duplicate records.
+- Combed the data for inconsistent data types.
 - Standardized column names and formats.
 - Identified and evaluated outliers.
 - Created calculated columns and derived variables.
 - Validated data accuracy and consistency.
+The dataset was very concise and did not contain errors or unfilled entries. 
 
 ## 📈 Exploratory Data Analysis (EDA)
 
@@ -107,14 +108,14 @@ Describe the analytical methods used to investigate the dataset.
 - Identification of anomalies and outliers.
 
 **Research Questions:**
-1. [Insert research question]
-2. [Insert research question]
-3. [Insert research question]
-4. [Insert research question]
+1. What was the recorded living wage found across the data set? 
+2. How does the cost of living compare across the cities and states?
+3. Are there patterns and correlations to be observed?
+4. How does this compare the the dollar amounts for my current location in the year 2026? 
 
 ## 💡 Key Findings
 
-Summarize the most important discoveries from the analysis.
+There are repeating shapes in the data. Logical hypothesis are supported by the numbers. 
 
 | Finding | Description | Significance |
 |---|---|---|
@@ -140,21 +141,21 @@ Include charts, graphs, dashboards, and other visual representations of your fin
 
 **Dashboard:**
 
-[Insert link to interactive dashboard, if applicable]
+[Separate plotly dashboard]
 
 ## 📝 Recommendations & Conclusions
 
-Summarize what the analysis reveals and explain any recommendations supported by the data.
+The visualizations show that the more children in the household the greater the varience in cost. In higher cost areas like New York and California we see greater change in cost.
 
 **Conclusions:**
-- [Conclusion 1]
-- [Conclusion 2]
-- [Conclusion 3]
+- The number of working adults and the number of children are directly correlated. 
+- Geographical location, year, and population density are also correlated. 
+- Cost of living is increasing and the rate of change is speeding up. 
 
 **Recommendations:**
 - [Recommendation 1]
 - [Recommendation 2]
-- [Recommendation 3]
+- If I was to run this again I would try to get data from more years and really limit the number of columns. I had been struggling with my initial data gathering because i ended up finding a dataset that ended up being 2gigabytes in size. there was alot of interesting possible information and correlations to be found but there was simply too much data, and a number of the entries like "occupation" were numeric codes instead of actual words which limited their usefulness due to lack of interpretability. I also am not happy with the originator's source for the data. I used the MIT cost of living calculator for my "current day" comparison data and the author only lists their source as Wikipedia. 
 
 ## 📁 Project Structure
 
@@ -227,7 +228,7 @@ Document any limitations that may affect the interpretation of your findings.
 
 Identify opportunities to expand or improve the project.
 
-- Incorporate additional datasets.
+- Incorporate additional datasets. 
 - Automate data collection and cleaning.
 - Develop predictive models.
 - Build interactive dashboards.
