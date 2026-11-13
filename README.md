@@ -115,7 +115,30 @@ Describe the analytical methods used to investigate the dataset.
 
 ## 💡 Key Findings
 
-There are repeating shapes in the data. Logical hypothesis are supported by the numbers. Which is to say the more kids you have the more expensive it is. 
+There are repeating shapes in the data. Logical hypothesis are supported by the numbers. Which is to say the more kids you have the more expensive it is. Unfortunately the data does not include the hard numbers but we can infer some information from the data. The MIT living wage calculator includes the following definition of how they calculate the figure. 
+"What typical expenses are included in the Living Wage Calculator’s estimates?
+The Living Wage Calculator’s estimate of living wage includes eight typical expenses or basic needs—childcare, civic engagement, food, health care, housing, internet and mobile, transportation, and other necessities. In addition to these basic needs, the Calculator also accounts for income and payroll tax costs for each family."  One of the necessities that is going to have a large impact is child supervision.  Daycare costs have ballooned and we can see that the the Min and Max dollar values from the data support this inferance. the lowest living wage in the data set falls within the category of 2 working adults with no kids. The max is, no surprise, on adult 3 kids in the state of California. In fact the "living wage" for that household calculated for six years ago was nearly 170 thousand dollars after multiplying the hourly number by 40 hours per week, and 52 weeks per year. 
+
+| Statistic | Population (2020) | Living Wage ($/hr) | Salary ($/yr) |
+|:---|---:|---:|---:|
+| Count | 1,200 | 1,200 | 1,200 |
+| Mean | 650,040 | 28.99 | 60,302.84 |
+| Standard Deviation | 978,037.90 | 12.14 | 25,258.27 |
+| Minimum | 226,610 | 10.15 | 21,112.00 |
+| 25th Percentile | 282,216.80 | 20.01 | 41,615.60 |
+| Median (50th Percentile) | 390,263.50 | 28.35 | 58,957.60 |
+| 75th Percentile | 644,553 | 35.40 | 73,632.00 |
+| Maximum | 8,804,190 | 81.63 | 169,790.40 |
+
+	population_2020	living_wage	salary
+count	1.200000e+03	1200.000000	1200.00000
+mean	6.500400e+05	28.991750	60302.84000
+std	9.780379e+05	12.143399	25258.27083
+min	2.266100e+05	10.150000	21112.00000
+25%	2.822168e+05	20.007500	41615.60000
+50%	3.902635e+05	28.345000	58957.60000
+75%	6.445530e+05	35.400000	73632.00000
+max	8.804190e+06	81.630000	169790.40000
 
 | Finding | Description | Significance |
 |---|---|---|
@@ -127,12 +150,12 @@ There are repeating shapes in the data. Logical hypothesis are supported by the 
 
 Include charts, graphs, dashboards, and other visual representations of your findings.
 
-**Visualization 1: [Chart Title]**
+**Visualization 1: household composition and state **
 
-![Visualization 1]
+![Visualization 1](images/chart_1.png)
 <img width="989" height="2990" alt="Household size, cost and state multiplot" src="https://github.com/user-attachments/assets/1e37a5c7-7154-427a-80d1-36c041f781f4" />
 
-*Description: Explain what this visualization demonstrates.*
+*Description: There are 3 breakdowns based on the adult composition: single parent, 2 parents (one working), and 2 working parents. We can see each of the 3 groupings share a similar shape but the shape spreads out creating greater variance as the number of children increases.ffff*
 
 **Visualization 2: [Chart Title]**
 
