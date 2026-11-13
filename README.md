@@ -98,14 +98,18 @@ The dataset was very concise and did not contain errors or unfilled entries.
 
 Describe the analytical methods used to investigate the dataset.
 
-**Analysis Performed:**
-- Descriptive statistics.
-- Distribution analysis.
-- Trend analysis.
-- Correlation analysis.
+**Analysis Performed:** 
+.
 - Comparative analysis.
 - Grouping and aggregation.
 - Identification of anomalies and outliers.
+  coming soon
+- Descriptive statistics.   
+- Distribution analysis.
+- Trend analysis.
+- Correlation analysis
+
+- the data in its base state was tabled in a manner that was difficult to work with. In order to compare the data and get more the plots onto the graph numerous data frame cloning, slicing, and rearranging had to occur. The primary focus was on visuallizing and understanding the dollar values. Which makes sense when exploring the "cost" of living. This not ncecessarily the original daataset creator's fault. The data is presented this way by default when it is being incestigated. 
 
 **Research Questions:**
 1. What was the recorded living wage found across the data set? 
@@ -137,8 +141,8 @@ Too be honest that number was higher than I was expecting. Lets compare those nu
 | Wage Category | 1 Adult<br>(1 Working)<br>0 Children | 1 Adult<br>(1 Working)<br>1 Child | 1 Adult<br>(1 Working)<br>2 Children | 1 Adult<br>(1 Working)<br>3 Children | 2 Adults<br>(1 Working)<br>0 Children | 2 Adults<br>(1 Working)<br>1 Child | 2 Adults<br>(1 Working)<br>2 Children | 2 Adults<br>(1 Working)<br>3 Children | 2 Adults<br>(Both Working)<br>0 Children | 2 Adults<br>(Both Working)<br>1 Child | 2 Adults<br>(Both Working)<br>2 Children | 2 Adults<br>(Both Working)<br>3 Children |
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **Living Wage** | $25.50 | $40.34 | $52.29 | $67.11 | $33.02 | $39.46 | $42.60 | $50.45 | $16.51 | $23.27 | $28.07 | $34.84 |
-| **Poverty Wage** | $7.67 | $10.40 | $13.13 | $15.87 | $10.40 | $13.13 | $15.87 | $18.60 | $5.20 | $6.57 | $7.93 | $9.30 |
-| **Minimum Wage** | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 |
+
+ From that table we can see that in Utah 6 years later the Single Parent, 3 children household is 67
 
 
 | Finding | Description | Significance |
@@ -163,6 +167,11 @@ Include charts, graphs, dashboards, and other visual representations of your fin
 ![Visualization 2](images/chart_2.png)
 
 *Description: Explain the significance of this visualization.*
+<img width="1430" height="1572" alt="Density and wage with trendline" src="https://github.com/user-attachments/assets/a967b98b-f382-41b0-8aab-02e62e697437" />
+
+When we break out the different household categories it becomes possible to see the actual trendline for the correlation. By aggregating the data I created sufficient noise to cover up the actuation visualization. 
+gemini was used to assist with adding the trendline
+
 
 **Dashboard:**
 
@@ -178,9 +187,9 @@ The visualizations show that the more children in the household the greater the 
 - Cost of living is increasing and the rate of change is speeding up over time. 
 
 **Recommendations:**
-- [Recommendation 1]
-- [Recommendation 2]
 - If I was to run this again I would try to get data from more years and really limit the number of columns. I had been struggling with my initial data gathering because i ended up finding a dataset that ended up being 2gigabytes in size. there was alot of interesting possible information and correlations to be found but there was simply too much data, and a number of the entries like "occupation" were numeric codes instead of actual words which limited their usefulness due to lack of interpretability. I also am not happy with the originator's source for the data. I used the MIT cost of living calculator for my "current day" comparison data and the author only lists their source as Wikipedia.
+- I would really like to include a cap on the number of etries per state or something as well if i was gathering the data. it bothers me that the data only pulls from 34 of the 50 states, and that it skews heavily towards California. If I was designing the dataset I would take work to include 3 cities from everystate and then a selection of the top cities, obviously avoiding duplication. 
+
 - I think there is a likelihood of preconcieved biases between me and the data. I do feel that the facts are such that the conclusions are not in question but it would be good to work with arms length datasets in the future.
 
 ## 📁 Project Structure
