@@ -185,35 +185,7 @@ project-name/
 └── .gitignore
 ```
 
-## 🚀 How to Run This Project
 
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/username/project-name.git
-```
-
-**2. Navigate to the project directory**
-
-```bash
-cd project-name
-```
-
-**3. Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-**4. Run the analysis**
-
-Open the Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Follow the instructions within the notebook to reproduce the analysis.
 
 ## ⚠️ Limitations
 
@@ -230,12 +202,10 @@ Document any limitations that may affect the interpretation of your findings.
 Identify opportunities to expand or improve the project.
 
 - Incorporate additional datasets. 
-- Automate data collection and cleaning.
-- Develop predictive models.
-- Build interactive dashboards.
-- Expand the analysis to additional time periods.
-- Improve statistical testing and validation.
-
+- Build interactive dashboards. Plotly allows for interactivity and would make for more effective comparisons of the data side by side. 
+- Expand the analysis to additional time periods. It would be interesting to include more historical benchmarks as well being able to analyze the increased change over the last few years. 
+- Include additional monetary benchmarks for the data. For example average and median home cost for the area, average and median income in the area. This specifically might lead to interesting results. It would allow for comparisons of cost of living and actual wages. Home prices are a part of the cost of living but again it can be useful to see the data on its own and compare the amount of correlation between the entries. f
+- Improve statistical testing and validation. Especially the source of the data, as previously mentioned. 
 ## 👨‍💻 Author
 
 **Adam Albright**
