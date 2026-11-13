@@ -130,7 +130,15 @@ The Living Wage Calculator’s estimate of living wage includes eight typical ex
 | 75th Percentile | 644,553 | 35.40 | 73,632.00 |
 | Maximum | 8,804,190 | 81.63 | 169,790.40 |
 
+Too be honest that number was higher than I was expecting. Lets compare those numbers with the current MIT findings from their calculator for my metropolitan area in the year 2026.
 
+### Living Wage Comparison by Household Size
+
+| Wage Category | 1 Adult<br>(1 Working)<br>0 Children | 1 Adult<br>(1 Working)<br>1 Child | 1 Adult<br>(1 Working)<br>2 Children | 1 Adult<br>(1 Working)<br>3 Children | 2 Adults<br>(1 Working)<br>0 Children | 2 Adults<br>(1 Working)<br>1 Child | 2 Adults<br>(1 Working)<br>2 Children | 2 Adults<br>(1 Working)<br>3 Children | 2 Adults<br>(Both Working)<br>0 Children | 2 Adults<br>(Both Working)<br>1 Child | 2 Adults<br>(Both Working)<br>2 Children | 2 Adults<br>(Both Working)<br>3 Children |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Living Wage** | $25.50 | $40.34 | $52.29 | $67.11 | $33.02 | $39.46 | $42.60 | $50.45 | $16.51 | $23.27 | $28.07 | $34.84 |
+| **Poverty Wage** | $7.67 | $10.40 | $13.13 | $15.87 | $10.40 | $13.13 | $15.87 | $18.60 | $5.20 | $6.57 | $7.93 | $9.30 |
+| **Minimum Wage** | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 | $7.25 |
 
 
 | Finding | Description | Significance |
