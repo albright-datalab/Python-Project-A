@@ -129,7 +129,8 @@ Include charts, graphs, dashboards, and other visual representations of your fin
 
 **Visualization 1: [Chart Title]**
 
-![Visualization 1](images/chart_1.png)
+![Visualization 1]
+<img width="989" height="2990" alt="Household size, cost and state multiplot" src="https://github.com/user-attachments/assets/1e37a5c7-7154-427a-80d1-36c041f781f4" />
 
 *Description: Explain what this visualization demonstrates.*
 
@@ -141,9 +142,10 @@ Include charts, graphs, dashboards, and other visual representations of your fin
 
 **Dashboard:**
 
-[Separate plotly dashboard]
+[Separate plotly dashboard or collab here]
 
 ## 📝 Recommendations & Conclusions
+<img width="989" height="2990" alt="Household size, cost and state multiplot" src="https://github.com/user-attachments/assets/1e37a5c7-7154-427a-80d1-36c041f781f4" />
 
 The visualizations show that the more children in the household the greater the varience in cost. In higher cost areas like New York and California we see greater change in cost.
 
